@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Дыши. Ответ дня — как пользоваться</title>
+<style>
+  :root{
+    --bg:#EDE5DB; --ink:#2E2C2A; --ink-soft:#6E6860;
+    --accent:#B8714F; --line:#D8CDBE;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{
+    background:var(--bg);color:var(--ink);
+    font-family:Georgia,'Times New Roman',serif;
+    line-height:1.6;
+  }
+  .page{max-width:480px;margin:0 auto;padding:48px 26px 44px}
+  .mark{width:52px;height:4px;background:var(--accent);margin-bottom:30px}
+  h1{font-size:27px;font-weight:600;margin-bottom:8px}
+  .lead{font-size:16px;color:var(--ink-soft);margin-bottom:34px}
+  h2{font-size:14px;font-weight:600;color:var(--accent);letter-spacing:1.5px;
+     text-transform:uppercase;margin-bottom:12px}
+  .how{font-size:16px;margin-bottom:34px}
+  .slash{
+    display:inline-block;background:#fff;border:1px solid var(--line);
+    border-radius:7px;padding:0 8px;font-family:Consolas,Menlo,monospace;
+    font-size:15px;font-weight:700;color:var(--ink);
+  }
+  ul.cmds{list-style:none;border-top:1px solid var(--line)}
+  ul.cmds li{padding:12px 0;border-bottom:1px solid var(--line);font-size:15px}
+  .c{font-family:Consolas,Menlo,monospace;font-weight:700;font-size:14px;
+     color:var(--ink);margin-right:8px}
+  .d{color:var(--ink-soft)}
+  .foot{margin-top:30px;font-size:14px;color:var(--ink-soft)}
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="mark"></div>
+  <h1>Дыши. Ответ дня</h1>
+  <p class="lead">Одна строка на день — и тишина.</p>
+
+  <h2>Как пользоваться</h2>
+  <p class="how">Наберите <span class="slash">/</span> в поле сообщения —
+  появится список команд. Коснитесь нужной.</p>
+
+  <h2>Команды</h2>
+  <ul class="cmds">
+    <li><span class="c">/answer</span><span class="d">Ответ дня — ваша строка на сегодня</span></li>
+    <li><span class="c">/help</span><span class="d">справка</span></li>
+    <li><span class="c">/about</span><span class="d">о боте</span></li>
+    <li><span class="c">/policy</span><span class="d">политика и согласие</span></li>
+    <li><span class="c">/delete_me</span><span class="d">стереть всё, что вы доверили боту</span></li>
+    <li><span class="c">/start</span><span class="d">начать заново</span></li>
+  </ul>
+
+  <p class="foot">Это всё. Больше ничего знать не нужно — просто дышите.</p>
+</div>
+</body>
+</html>
